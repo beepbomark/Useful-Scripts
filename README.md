@@ -1,9 +1,17 @@
 # Useful-Scripts
-Collection of PowerShell, Command-Line scripts created to simplify and streamline daily tasks.
+A collection of PowerShell and Command-Line scripts designed to simplify and streamline daily tasks, showcasing my proficiency in PowerShell and Command-Line.
+
+## Deleting and clearing browser history and cookies
+The PowerShell scripts below allow users to clear browsing history and cookies for Google Chrome, Microsoft Edge, and Mozilla Firefox, resolving browser issues and improving privacy.
+|Script|Description|
+|------|-----------|
+|[delete_chrome_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_chrome_browsing_history.ps1)|Clears browsing history and cookies for all Google Chrome profiles|
+|[delete_edge_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_edge_browsing_history.ps1)|Clears browsing history and cookies for all Microsoft Edge profiles.
+|
+|[delete_mozilla_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_mozilla_browsing_history.ps1)|Clears browsing history and cookies for all Mozilla Firefox profiles.|
 
 ## Batch Files for Non-Administrative Users
-The batch files below allow users without administrator rights or accounts to terminate the specified applications:
-To use these batch files, simply double-click the corresponding .bat file, or execute it in a Command Prompt window.
+These batch files allow users without administrator rights to terminate specific applications. To use them, double-click the corresponding .bat file or execute it in a Command Prompt window.
 
 |Script|Description|
 |------|-----------|
@@ -14,7 +22,7 @@ To use these batch files, simply double-click the corresponding .bat file, or ex
 |[kill_zoom.bat](https://github.com/beepbomark/Useful-Scripts/blob/main/Scripts/kill_zoom.bat)|Terminates Zoom.|
 
 ## Powershell Scripts for Admin Users
-The PowerShell scripts below provide Admin users with quick tools for resetting and refreshing network connections, as well as managing applications.
+These PowerShell scripts provide Admin users with quick tools for managing network connections and applications.
 |Script|Description|
 |------|-----------|
 |[check_network_connections.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/check_network_connections.ps1)|To check if IPv4 settings are set to obtain an IP address automatically, and change them to automatic if they are not.|
