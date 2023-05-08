@@ -28,3 +28,10 @@ These PowerShell scripts provide Admin users with quick tools for managing netwo
 |[check_network_connections.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/check_network_connections.ps1)|To check if IPv4 settings are set to obtain an IP address automatically, and change them to automatic if they are not.|
 |[kill_unresponsive_apps.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/kill_unresponsive_apps.ps1)|Terminates all unresponsive applications currently running on the system.|
 |[reset_network_connections.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/reset_network_connections.ps1)|Resets and refreshes all network connections, including releasing and renewing IP addresses and flushing the DNS cache.|
+
+## Scripts to use in Active Directory
+These PowerShell scripts provide users with quick tools for managing and retrieving data required from AD.
+|Script|Description|
+|---|---|
+|[getDepartmentsAndUsers.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/getDepartmentsAndUsers.ps1)|Retrieves the Departments in Active Directory and the number of user accounts associated with it|
+|[get_mailing_list.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/get_mailing_list.ps1)|Retrieves all Mailing Lists in Active Directory|
