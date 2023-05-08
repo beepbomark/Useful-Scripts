@@ -6,8 +6,7 @@ The PowerShell scripts below allow users to clear browsing history and cookies f
 |Script|Description|
 |------|-----------|
 |[delete_chrome_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_chrome_browsing_history.ps1)|Clears browsing history and cookies for all Google Chrome profiles|
-|[delete_edge_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_edge_browsing_history.ps1)|Clears browsing history and cookies for all Microsoft Edge profiles.
-|
+|[delete_edge_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_edge_browsing_history.ps1)|Clears browsing history and cookies for all Microsoft Edge profiles.|
 |[delete_mozilla_browsing_history.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/delete_mozilla_browsing_history.ps1)|Clears browsing history and cookies for all Mozilla Firefox profiles.|
 
 ## Batch Files for Non-Administrative Users
