@@ -32,5 +32,6 @@ These PowerShell scripts provide Admin users with quick tools for managing netwo
 These PowerShell scripts provide users with quick tools for managing and retrieving data required from AD.
 |Script|Description|
 |---|---|
-|[getDepartmentsAndUsers.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/getDepartmentsAndUsers.ps1)|Retrieves the Departments in Active Directory and the number of user accounts associated with it|
-|[get_mailing_list.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/get_mailing_list.ps1)|Retrieves all Mailing Lists in Active Directory|
+|[getDepartmentsAndUsers.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/getDepartmentsAndUsers.ps1)|This script is designed to efficiently fetch all the departments listed in your Active Directory and simultaneously count the number of user accounts linked to each of these departments.|
+|[get_mailing_list.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/get_mailing_list.ps1)|This handy script is tasked with collecting all the Mailing Lists in Active Directory, offering an easy way to audit or update your mailing lists.|
+|[get_email_status.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/get_email_status.ps1)|This script demonstrates its utility by using the "Email" column in a given CSV file to search for the corresponding AD account. It then checks the account status (enabled or disabled) and updates this status in the file.|
