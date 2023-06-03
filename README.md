@@ -29,6 +29,15 @@ These PowerShell scripts provide Admin users with quick tools for managing netwo
 |[reset_network_connections.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/reset_network_connections.ps1)|Resets and refreshes all network connections, including releasing and renewing IP addresses and flushing the DNS cache.|
 
 ## Scripts to use in Active Directory
+As an Active Directory (AD) administrator, our tasks generally revolve around managing user accounts, computers, groups, security, and other resources within a Windows domain environment. Here are some scripts that can be used.
+|Script|Description|
+|---|---|
+|[Create_user.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/Create_user.ps1)|This PowerShell script facilitates the creation of an individual Active Directory user. It prompts for common user attributes such as first name, last name, full name, UPN, display name, office number, email, and path (OU). It also provides a mechanism for handling empty input fields, setting these as null in the user profile.|
+|[create_bulk_user.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/create_bulk_user.ps1)|This PowerShell script is designed for bulk creation of Active Directory users. It imports user attributes from a specified CSV file and iteratively generates new user accounts. The CSV file should contain commonly required user details such as samAccountName, UserPrincipalName, GivenName, Surname, DisplayName, Email, Password, Enabled status, Path (OU), and OfficePhone.|
+|[create_ADGroup.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/create_ADGroup.ps1)|This PowerShell script is designed to create a single Active Directory (AD) group. It prompts for the group's name and path (e.g., OU or CN=Users container). The script handles the difference between an Organizational Unit and the default "Users" container, ensuring correct group placement.|
+|[create_bulk_ADGroups.ps1](https://github.com/beepbomark/Useful-Scripts/blob/main/PowerShell%20Scripts/create_ADGroup.ps1)|This PowerShell script is designed for the bulk creation of AD groups. It imports group details from a specified CSV file, which should include the group name and path (OU or CN=Users container). The script iteratively creates new AD groups according to the CSV file, handling differences between OUs and the default "Users" container, and delivers a confirmation of successful group creation.|
+
+
 These PowerShell scripts provide users with quick tools for managing and retrieving data required from AD.
 |Script|Description|
 |---|---|
