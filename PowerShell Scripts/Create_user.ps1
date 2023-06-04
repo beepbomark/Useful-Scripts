@@ -1,8 +1,3 @@
-# Import the Active Directory module if not already loaded
-if (-not (Get-Module -Name ActiveDirectory)) {
-    Import-Module ActiveDirectory
-}
-
 # Prompt for user details
 $firstName = Read-Host -Prompt "Enter first name"
 $middleName = Read-Host -Prompt "Enter middle name"
